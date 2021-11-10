@@ -1,1 +1,1 @@
-#Python Challenges and Pre Releases go here
+#Python Challenges from http://pythonchallenges.weebly.com/
