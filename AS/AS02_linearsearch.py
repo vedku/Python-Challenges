@@ -1,5 +1,5 @@
 while True:
-    register = ['Aman Ahmad Sanusi','Han Yuan Chew','Elena Foong','Hae Joon (Ray)  Kang','Ved KUWADEKAR','Amanda Lee','Benjamin Lee','Lauren Lee','Bryan Lim','Ryan Ng','Sewon Park','Isaac Pau','Alexander Paul','Samyuktha Rachakonda','Haziq Rumzy','Sanchi Sharma','Shrey Somani','Conor Tan','Come  Vaubourg']
+    register = [#put your own list here]
 
     def search(position):
         for i in range(len(register)):
@@ -10,7 +10,7 @@ while True:
     position = input("What student do you want to find the position of?:")
     numberofstudents = len(register)
     output = search(position)
-    if position == -1:
-        raise Exception ("That student is either not in the class, you have misspelt their name, or have input an unsupported data type")
+    if position not in register:
+        raise Exception("That student is either not in the class, you have misspelt their name, or have input an unsupported data type")
     else:
         print("The student," , position, "is at position,", output)
