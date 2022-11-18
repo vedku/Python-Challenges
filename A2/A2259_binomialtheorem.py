@@ -1,5 +1,7 @@
 def expand(co_a, co_b, n):
-    if n == 1:
+    if n == 0:
+        print("1")
+    elif n == 1:
         print("(",co_a,"a", "+", co_b,"b" ") ^", n)
         print("Is Equal to")
         print(co_a,"a", "+", co_b,"b")
