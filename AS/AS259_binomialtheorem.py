@@ -5,7 +5,7 @@ def expand(co_a, co_b, n):
         print(co_a,"a", "+", co_b,"b")
     elif n > 1:
         for i in range(n):
-            ans = co_a*co_a, "+", co_a*co_b
+            ans = co_a*co_a,"a", "+", co_a*co_b,"b", "+", co_b*co_b
             #print("the amount of times this is printed is the amount of times it needs to be multiplied by itself")
             print(ans)
 
