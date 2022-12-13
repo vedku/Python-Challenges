@@ -1,4 +1,3 @@
-x = 1
 for x in range(1,21):
     if x % 3 == 0:
         print("Fizz")
@@ -8,4 +7,3 @@ for x in range(1,21):
         print("FizzBuzz")
     else:
         print(x)
-    x += 1
