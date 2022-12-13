@@ -1,5 +1,5 @@
 x = 1
-for x in range(21):
+for x in range(1,21):
     if x % 3 == 0:
         print("Fizz")
     elif x % 5 == 0:
